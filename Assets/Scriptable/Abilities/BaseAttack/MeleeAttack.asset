@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 180d753748e8e422cb1409ac9235028b, type: 3}
+  m_Name: MeleeAttack
+  m_EditorClassIdentifier: 
+  AbilityImage: {fileID: 2689763623577893526, guid: fa35b915543544c859d17cfc672de868, type: 3}
+  Name: BaseAttack
+  IsPassive: 1
+  IsDelayed: 0
+  CollideWith:
+    serializedVersion: 2
+    m_Bits: 64
+  _cooldown: {fileID: 11400000, guid: 2d1abb39739ca424da987b14584a65ba, type: 2}
+  Prefab: {fileID: 5655674493536573196, guid: c4b70a5c4c4a845dbb5670be7e842646, type: 3}
+  PossibleUpgrades:
+  - UpgradeType: 0
+    Value: 3
+    Measure: 1
+  - UpgradeType: 1
+    Value: 10
+    Measure: 0
+  ActionModifiers: []
+  _damage: {fileID: 11400000, guid: 42ac829601606402786ca1d28f565e45, type: 2}
+  _units: {fileID: 11400000, guid: 226fcb4e084c94f7abfba2a78650ee25, type: 2}

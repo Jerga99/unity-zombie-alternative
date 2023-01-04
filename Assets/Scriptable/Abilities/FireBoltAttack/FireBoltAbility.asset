@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdbaea12af24947e5bacc8f0da302723, type: 3}
+  m_Name: FireBoltAbility
+  m_EditorClassIdentifier: 
+  AbilityImage: {fileID: 2689763623577893526, guid: 3a583111c38bd40879894402fa50147e, type: 3}
+  Name: FireBolt
+  IsPassive: 1
+  IsDelayed: 0
+  CollideWith:
+    serializedVersion: 2
+    m_Bits: 64
+  _cooldown: {fileID: 11400000, guid: adf114a7931a44e08b2da4d086a17bc9, type: 2}
+  Prefab: {fileID: 2083900382397488531, guid: f19d02c7214eb413caa39fe0395e132c, type: 3}
+  PossibleUpgrades:
+  - UpgradeType: 0
+    Value: 15
+    Measure: 0
+  - UpgradeType: 2
+    Value: 1
+    Measure: 1
+  ActionModifiers:
+  - {fileID: 11400000, guid: c510d28f396b24e6f891f62adeb048e0, type: 2}
+  _damage: {fileID: 11400000, guid: f0a666dfa1b8b4651ac0f3655982511c, type: 2}
+  _units: {fileID: 11400000, guid: d55cd9f306c3b4eff92a9ca5e9473666, type: 2}
+  collectionChecks: 1
+  maxPoolSize: 10
+  Range: 3
